@@ -67,11 +67,13 @@
                               <ul>
                                  <li>Plex Server - Plex is a front-end for streaming media. I have ripped my family's home movies and stored them on a server so they can be played anywhere at any time</li>
                                  <li>AdGuard Home - AdGuard Home is a simple, DNS level, ad and tracker blocker that can be configured to work at the device or network level. Since its deployment on my home network, it has blocked well over 50,000 trackers and ads.</li>
-                                 <li>Nginx Proxy Manager - Nginx is one of the most popular web servers in the world. Nginx Proxy Manager uses Nginx to create an easy-to-use reverse proxy environment. The application has allowed me to easily connect my internet facing applications to my domain and protect them with SSL.</li>
+                                 <li>Nginx Proxy Manager - Nginx is one of the most popular web servers in the world. Nginx Proxy Manager uses Nginx to create an easy-to-use reverse proxy environment. The application has allowed me to easily connect my internet facing applications to my domain and protect them with SSL. For security reasons, only a select few of my services are available on the internet and are protected with a login and password.</li>
                                  <li>Docker - When people think of containerization, they think of Docker. Nearly all of the services running on my homelab are running in their own Docker container. Doing so boosts the services' reliability and makes them easier to manage.</li>
                                  <li>Proxmox VE - Proxmox VE is an open source, operating system hypervisor that I use on my servers. Proxmox allows me to have fine control over my virtual machines without being overly complicated or resource heavy.</li>
-                                 <li>Grafana and Prometheus - Grafana is a tool used to create dashboards for any of your data. Prometheus is a tool used to collect metrics and monitor systems. I use them together to monitor all of the systems running on my network in easy to read dashboards.
-                                 <li>Wiki.js - In order to get practice with documention and keep all of my important information organized, I have been building out a wiki that contains all of the details I need to redeploy a service.
+                                 <li>Grafana and Prometheus - Grafana is a tool used to create dashboards for any of your data. Prometheus is a tool used to collect metrics and monitor systems. I use them together to monitor all of the systems running on my network in easy to read dashboards.</li>
+                                 <li>Wiki.js - In order to get practice with documention and keep all of my important information organized, I have been building out a wiki that contains all of the details I need to re-deploy a service.</li>
+                                 <li>InfluxDB - InfluxDB is a time-series database that I use as a means of collecting metrics about my services. InfluxDB integrates with my Grafana instance for ease of viewing.</li>
+                                 <li>Wireguard - Wireguard is a VPN protocol that is a faster alternative to OpenVPN (which I have used in the past). Wireguard allows me to access my resources that are not WAN facing while I am away.</li>
                               </ul>
                           </div>
                       </div>
@@ -86,6 +88,7 @@
                                   <li>Setting up an enpoint management utility</li>
                                   <li>Purchasing and configuring a Pfsense compatible router</li>
                                   <li>Automating backups</li>
+                                  <li>Proxying internet facing services through Cloudflare</li>
                                   <li>And lots more</li>
                                 </ul>
                           </div>
