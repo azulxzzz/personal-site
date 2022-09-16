@@ -96,6 +96,8 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 .ds-work-list{ padding-left: 70px; padding-top:40px; padding-right: 70px; background-color:#F6F8FA; margin-bottom: 40px; }
 .ds-work-list section{ padding-top: 20px; padding-right: 120px; }
 .ds-work-tilte{ color: #000; font-size: 30px; line-height: 36px; font-weight: 600; margin-bottom: 30px; }
+.ds-work-tilte-dates{ color: #000; font-size: 30px; line-height: 36px; font-weight: 600; margin-bottom: 5px; }
+.ds-work-dates{ color: rgb(45, 45, 45); font-size: 18px; line-height: 24px; font-weight: 400; margin-bottom: 30px; }
 .ds-work-list p{ font-weight: 300; font-size: 18px; line-height: 30px; }
 .ds-work-list .ds-button{ margin-top: 20px; }
 
