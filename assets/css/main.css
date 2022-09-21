@@ -52,6 +52,8 @@ svg,img { max-width: 100%; height: auto; }
 .ds-banner section{ padding-left: 70px; padding-right: 100px; }
 .ds-banner section h1 span{ display: block; text-transform: uppercase; letter-spacing: 1px;  font-weight: 500; font-size: 16px; padding-bottom: 30px; }
 .ds-banner section h1{ font-weight: 600; font-size: 48px; line-height: 60px; color: #000; }
+.ds-banner-contact section h1 span{ display: block; text-transform: uppercase; letter-spacing: 1px;  font-weight: 500; font-size: 16px; padding-bottom: 30px; }
+.ds-banner-contact section h1{ font-weight: 600; font-size: 48px; line-height: 60px; color: #000; }
 .ds-numbervalulist{ list-style: none; display: flex; align-items: center; flex-wrap: wrap; margin: 0; padding: 0; margin-top: 60px; }
 .ds-numbervalulist li{ margin-right: 60px; }
 .ds-numbervalulist li:last-child{ margin-right: 0; }
@@ -61,8 +63,10 @@ svg,img { max-width: 100%; height: auto; }
   3. >>> About Style
 ----------------------------------------------------------------*/
 .ds-about-section{ padding-top: 60px; padding-bottom: 120px; }
+.ds-contact-section{ padding-top: 60px; padding-bottom: 120px;}
 .ds-heading{ display: inline-block; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #F26464; padding-bottom: 7px; margin-bottom: 23px; }
 .ds-about-section p{ color: #373737; font-size: 24px; line-height: 40px; font-weight: 300; margin-bottom: 60px; }
+.ds-contact-section p{ color: #373737; font-size: 24px; line-height: 40px; font-weight: 300; margin-bottom: 60px; }
 
 .ds-button{ display: inline-block; text-transform: uppercase;font-size: 12px;line-height: 13px;font-weight: 600;letter-spacing: 3px; color:#F26464; padding:17px 30px;  border: 2px solid #F26464;border-radius: 60px; }
 .ds-button:hover{ background-color:#F26464 ; color: #FFF; }
@@ -102,7 +106,9 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 .ds-work-list .ds-button{ margin-top: 20px; }
 
 .ds-work-det-hed{ padding-top: 42px; padding-bottom: 80px; }
+.ds-contact-det-hed{ padding-top: 42px; padding-bottom: 10px; }
 .ds-work-det-title{ font-weight: 600; color:#000; font-size: 48px; margin-bottom: 20px; }
+.ds-contact-det-title{ font-weight: 600; color:#000; font-size: 48px; margin-bottom: 5px; }
 .ds-work-det-dep{ display:block;font-weight: 600; color: #000; font-size: 18px; }
 .ds-work-content-sec{ padding: 100px 0; }
 .ds-work-content-sec p{ font-size: 18px; line-height: 36px; margin-bottom: 30px; }
@@ -154,6 +160,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	.ds-button{ padding: 11px 10px; }
 	.ds-work-details-section{ padding-top: 30px; }
 	.ds-work-det-title{ margin-bottom: 7px; }
+	.ds-contact-det-title{ margin-bottom: -15px; }
 	.ds-work-content-sec h2{ font-size: 20px; }
 	.ds-work-content-sec{ padding: 30px 0; }
 	.ds-work-list section{ padding-right: 0; padding-bottom: 30px; }
